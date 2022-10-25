@@ -1,0 +1,12 @@
+.carddiv{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+}
+
+@media screen and (max-width: 600px) {
+    .carddiv{
+        width: 100vw;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+}
