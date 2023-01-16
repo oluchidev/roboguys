@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "%7Bhttps://github.com/oluchidev%20%7D.github.io/%7Bhttps://github.com/oluchidev/Vintageberets%7D/precache-manifest.a2263a4224d9423a55af867c982fa6a4.js"
+  "%7Bhttps://github.com/oluchidev%20%7D.github.io/%7Bhttps://github.com/oluchidev/roboguys%7D/precache-manifest.278a2aba328daa2569c92df972b0b8ec.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("%7Bhttps://github.com/oluchidev%20%7D.github.io/%7Bhttps://github.com/oluchidev/Vintageberets%7D/index.html", {
+workbox.routing.registerNavigationRoute("%7Bhttps://github.com/oluchidev%20%7D.github.io/%7Bhttps://github.com/oluchidev/roboguys%7D/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
